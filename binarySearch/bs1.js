@@ -11,7 +11,7 @@
 //IMP
 //2. Sorted rotated array find target
 //let arr= [4,5,6,7,8,0,1,2,3]. for if we take this example and check l=0index r=8index m = 4 ie 8 in our case  target =6
-//we will check one thing that our left part is forted or right part is sorted now
+//we will check one thing that our left part is sorted or right part is sorted now
 //if(arr[m]>arr[l]) means left part is sorted
 //then inside this if we will check one more thing that  if(target<arr[m] && target >=arr[l]){
 //} this means the target will between l-m so will reduce our array as r=m-1
