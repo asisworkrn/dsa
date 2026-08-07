@@ -46,7 +46,7 @@ let isPalindrome = function (s) {
 };
 
 //Word search
-//We will start with emoty value then pick the word first letter which is given
+//We will start with empty value then pick the word first letter which is given
 // then in the start we will have mXN choices acc to the matrix we will match with first letter(Call btrack function for all the MXN values at the start)
 //and pick only those which get matched and skipped other
 //now move string pointer to next
